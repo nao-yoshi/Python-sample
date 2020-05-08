@@ -1,0 +1,6 @@
+---
+applications:
+- name: simpleapp1
+  memory: 128M
+  host: yos1
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
